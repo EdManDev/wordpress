@@ -1,0 +1,564 @@
+html { overflow-x: hidden }
+.main-container { max-width: 100% }
+/*-----------------------------------------------
+/* @media {      } queries
+/*---------------------------------------------*/
+@media screen and (max-width:1300px) { 
+    .shareit {
+        position: relative!important;
+        width: 100%!important;
+        top: 0!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin: 0!important;
+        padding-top: 10px!important;
+        border: none !important;
+        margin-bottom: 20px!important;
+    }
+}
+@media screen and (max-width:1230px) { 
+    #page, .container {
+        max-width: 96%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Our-Partners .title {
+        padding-top: 20px;
+        padding-bottom: 0;
+        width: 100%;
+        text-align: center;
+        border: 0;
+        font-weight: bold;
+    }
+    .mts-calorie-calculator .text {
+        width: 18%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width:1130px) { 
+    .description-1 { left: 20px }
+    .description-2 {
+        right: 20px;
+        top: 30px;
+    }
+    .footer-widgets { width: 100% }
+    .copyrights {
+        float: none;
+        text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        padding-bottom: 20px;
+        clear: both;
+    }
+    .to-top { width: 100% }
+    #footer-to-top { float: none }
+    .related-posts .latestPost { border: none }
+    #comments .avatar { margin-right: 5% }
+    .commentlist li {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    .single-title {
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .Justfit-facility-sections { padding: 50px 12% }
+    .Our-Partners-logos {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .Our-Partners-logos li {
+        float: none;
+        display: inline-block;
+    }
+}
+@media screen and (max-width:1060px) { 
+    .Justfit-members-stories {
+        width: 30%;
+        padding: 115px 5%;
+    }
+    .Justfit-members { width: 70% }
+    .Justfit-Progress .subheading { width: 100% }
+    .latestPost .post-info .theauthor {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .latestPost .post-info .thecategory {
+        margin-right: 0px;
+        float: left;
+    }
+    .latestPost .post-info > div:nth-last-of-type(2) { margin-right: 15px }
+    .postauthor h4, .related-posts h4, #comments h4, #commentsAdd h4 { font-size: 25px }
+    .Justfit-train-section .train-section-hover .front-view-content {
+        font-size: 13px;
+        padding-top: 10px;
+        max-height: 125px;
+        overflow: hidden;
+    }
+    .Justfit-train-section .train-section-hover header h2 {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width:1000px) { 
+    .primary-navigation {
+        float: left;
+        clear: left;
+    }
+}
+@media screen and (max-width:960px) { 
+    .secondary-navigation { left: 0 }
+    img {
+        max-width: 100%;
+        height: auto!important;
+    }
+    .ad-300 img { max-width: 100% }
+    .ad-125 li { max-width: 40% }
+    .ad-125 img {
+        padding: 0;
+        background: #FAFAFA;
+        border: 0;
+    }
+    .Justfit-Progress-Videos {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .Justfit-Progress-Video img { width: 100% }
+    .mts-calorie-calculator .text {
+        font-size: 13px;
+        width: 12%;
+        margin-right: 16%;
+    }
+    .single-title { font-size: 25px }
+    .Justfit-benefit-sections { padding: 50px 3% }
+    .Justfit-train-section {
+        width: 50%;
+        max-width: 100%;
+    }
+    .Justfit-train-section:nth-child(even) { border-right: none }
+    .Justfit-train-section .post-image-left { max-width: 100% }
+    .Justfit-train-section:nth-last-of-type(3), .Justfit-train-section:nth-last-of-type(4) { border-bottom: 1px solid #e0e0e0 }
+    .Justfit-train-section .train-section-hover .front-view-content {
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    .Justfit-train-section .train-section-hover header h2 {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width:900px) { 
+    .widget-header { max-width: 70% }
+    .secondary-navigation a { padding: 8px 14px }
+}
+@media screen and (max-width:800px) { 
+    .article {
+        float: none;
+        width: 100% !important;
+    }
+    .content_box {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .sidebar.c-4-12 {
+        float: none;
+        width: 100% !important;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-top: 30px;
+    }
+    .commentlist .children {
+        margin-left: 7%;
+        width: 93%;
+    }
+}
+@media screen and (max-width:865px) { 
+    #page, .container { max-width: 96% }
+    .primary-navigation {
+        clear: none;
+        margin-left: 20px;
+        margin-top: 33px;
+        margin-bottom: 0;
+    }
+    footer .container { padding: 0 4% }
+    .header-layout-2 #header h1, .header-layout-2  #header h2, .header-layout-2  .site-description {
+        float: none;
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    .header-layout-2 #logo a, .header-layout-2 #logo img {
+        float: none;
+        letter-spacing: 0;
+    }
+    .header-layout-2 .logo-wrap {
+        margin-bottom: 10px;
+        margin-top: 0;
+        width: 100%;
+    }
+    #navigation {
+        width: 100%;
+        display: none;
+    }
+    .secondary-navigation {
+        width: 100%!important;
+        position: relative!important;
+    }
+    #navigation .menu a, #navigation .menu .fa > a, #navigation .menu .fa > a { background: transparent }
+    #navigation .menu {
+        display: block!important;
+        float: none;
+        background: transparent;
+        margin-bottom: 45px;
+    }
+    #navigation ul ul {
+        visibility: visible!important;
+        opacity: 1!important;
+        position: relative;
+        left: 0!important;
+        border: 0;
+        width: 100%;
+    }
+    #navigation ul li li {
+        background: transparent;
+        border: 0;
+    }
+    #navigation { height: auto }
+    #navigation ul li li {
+        width: 100%!important;
+        float: left;
+        position: relative;
+    }
+    #navigation ul li:after { display: none }
+    #navigation ul li:before { display: none }
+    #navigation li a {
+        border-bottom: 1px solid rgba(194, 194, 194, 0.2)!important;
+        width: 100%!important;
+        box-sizing: border-box;
+    }
+    #navigation a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+    a#pull {
+        display: block;
+        width: 100%;
+        position: relative;
+        padding: 0;
+        text-indent: 25px;
+        margin-right: 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+        box-sizing: border-box;
+    }
+    a#pull:after {
+        content: "\f0c9";
+        display: inline-block;
+        position: absolute;
+        left: -20px;
+        top: 0;
+        font-family: FontAwesome;
+    }
+    #navigation ul .sfHover a, #navigation ul li:hover, #navigation ul .sfHover ul li { background: transparent }
+    /*disable flayout*/
+    #catcher { height: 0 !important }
+    .sticky-nav {
+        position: relative !important;
+        top: 0 !important;
+    }
+    /*-[ Responsive Navigation ]--------------------------------*/
+    .main-container {
+        position: absolute;
+        left: 0;
+        transition: left 500ms ease;
+    }
+    .mobile-menu-active .main-container {
+        left: 300px;
+        transition: left 500ms ease;
+    }
+    #navigation.mobile-menu-wrapper {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 300px;
+        height: 100%;
+        background-color: #000;
+        border-right: 1px solid rgba(194, 194, 194, 0.2);
+        overflow: auto;
+        transition: left 500ms ease;
+        -webkit-backface-visibility: hidden;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    .mobile-menu-active #navigation.mobile-menu-wrapper { left: 0 }
+    #navigation ul li {
+        width: 100%;
+        display: block;
+    }
+    #navigation ul li:hover { background: none }
+    #navigation ul li a, #navigation ul ul a {
+        padding: 9px 0;
+        width: 100%;
+        border: none;
+    }
+    #navigation ul ul {
+        position: static;
+        width: 100%;
+        border: none;
+    }
+    #navigation ul ul li {
+        background: none;
+        width: 100%;
+    }
+    #navigation i { display: inline }
+    #navigation ul ul a { padding: 9px 18px !important }
+    #navigation ul ul ul a { padding: 9px 27px !important }
+    #navigation ul ul ul ul a { padding: 9px 36px !important }
+    #navigation .toggle-caret {
+        display: block;
+        width: 42px;
+        height: 42px;
+        line-height: 42px;
+        color: #ffffff;
+        border-left: 1px solid rgba(194, 194, 194, 0.2);
+    }
+    #navigation ul ul a, #navigation ul ul a:link, #navigation ul ul a:visited { color: #c2c2c2 }
+    .primary-navigation #navigation .toggle-caret {
+        top: 0px;
+        right: 0px;
+    }
+    #navigation .menu-item-has-children > a:after { content: '' }
+    .Justfit-members { width: 100% }
+    .Justfit-members-stories {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        padding: 50px 5%;
+    }
+    .Justfit-members-stories .readMore { float: none }
+    .description-1, .description-2 { top: 10px }
+    .Justfit-Progress-Video {
+        width: 48.5%;
+        margin-right: 3%;
+    }
+    .Justfit-Progress-Video:nth-child(3n) { margin-right: 3% }
+    .Justfit-Progress-Video:nth-child(even) { margin-right: 0% }
+    .benefit-subheading { width: 100% }
+    .breadcrumb { display: none }
+}
+@media screen and (max-width:728px) { 
+    #logo a, #logo img {
+        float: none;
+        letter-spacing: 0;
+    }
+    .widget-header {
+        max-width: 100%;
+        float: left;
+    }
+}
+@media screen and (max-width:720px) { 
+    .secondary-navigation a {
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+    .ad-125 li { max-width: 45% }
+    #comments { margin-right: 0 }
+    .widget-header .textwidget {
+        margin-top: 0;
+        padding-left: 0;
+        border-left: none;
+    }
+    .Justfit-benefit-sections { padding: 50px 4% }
+    .benefit-subheading { width: 100% }
+    .Justfit-meals .subheading { width: 100% }
+    .Justfit-meals .subheading:after {
+        width: 108%;
+        left: -4%;
+    }
+}
+@media screen and (max-width:640px) { 
+    .featured-thumbnail img { width: 100% }
+    .admin-bar .pace .pace-progress { top: 0px }
+    .Our-Partners-logos {
+        width: 100%!important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        float: none;
+        clear: both;
+    }
+    .Our-Partners-logos li {
+        margin-right: 15px;
+        margin-top: 10px;
+    }
+    .Our-Partners .title {
+        width: 100%;
+        border: none;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    .article .review-total-star {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .Justfit-members-description .front-view-content { font-size: 13px }
+    .Justfit-members-description h2 { font-size: 15px }
+    .description-1 {
+        left: 4px;
+        top: -12px;
+    }
+    .description-2 {
+        right: 4px;
+        top: -12px;
+    }
+    .Justfit-members-stories h2 { font-size: 25px }
+    .header-join .join-description .title { font-size: 35px }
+    .header-join { min-height: 300px }
+    .Justfit-benefit-section {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .Justfit-ambition .subheading {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .f-widget {
+        width: 32%;
+        margin-right: 2%;
+    }
+    .f-widget:nth-child(3n) { margin-right: 0 }
+    .f-widget:nth-child(3n+1) { clear: left }
+    .widgets-num-4 .f-widget:nth-child(2) { margin-right: 0 }
+    .widgets-num-4 .f-widget {
+        width: 48%;
+        clear: none;
+    }
+    .single_page .tab_widget ul.wps_tabs li { width: 25% }
+    .single_page .tab_widget ul.wps_tabs li a { padding: 0 }
+}
+@media screen and (max-width:550px) { 
+    .sbutton { float: right }
+    .Justfit-facility-section {
+        width: 100%;
+        margin-right: 0%;
+        margin-bottom: 30px;
+    }
+    .Justfit-Progress-Video {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .latestPost {
+        width: 100%!important;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    .latestPost:nth-child(even) { margin-right: auto }
+    .related-posts .latestPost {
+        margin-right: auto;
+        max-width: 100%;
+        padding-bottom: 10px;
+        min-height: 112px;
+    }
+    .related-posts .latestPost:last-child { padding-bottom: 30px }
+    .single_post header .post-info > span:nth-child(3), .single_post header .post-info > span:nth-child(4) {
+        float: left;
+        display: inline-block;
+        clear: both;
+        margin-top: 10px;
+    }
+    .breadcrumb .container > span {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .single-title { font-size: 22px }
+    .postauthor h4, .related-posts h4, #comments h4, #commentsAdd h4 {
+        padding-left: 10px;
+        font-size: 22px;
+    }
+    .ss-full-width .one_half, .ss-full-width  .one_third, .ss-full-width  .two_third, .ss-full-width  .three_fourth, .ss-full-width  .one_fourth, .ss-full-width  .one_fifth, .ss-full-width  .two_fifth, .ss-full-width .three_fifth, .ss-full-width .four_fifth, .ss-full-width .one_sixth, .ss-full-width .five_sixth {
+        width: 100%;
+        margin-right: 0%;
+    }
+    .benefit-subheading { margin-bottom: 30px }
+    .Justfit-benefit-sections { padding-bottom: 0 }
+    .Justfit-ambition { padding-bottom: 30px }
+    .Justfit-ambition .readMore { margin-top: 20px }
+}
+@media screen and (max-width: 500px) { 
+    .primary-navigation {
+        clear: left;
+        margin-top: 15px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:480px) { 
+    nav { border-bottom: 0 }
+    #navigation {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .secondary-navigation {
+        width: 102%;
+        height: 35px;
+    }
+    .related-posts .latestPost {
+        width: 100%;
+        float: left!important;
+        max-width: 100%;
+    }
+    .related-posts .relatepostli4 {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #CCC;
+        margin-bottom: 11px;
+    }
+    .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+        width: 100%;
+        margin-right: 0;
+    }
+    .copyrights { text-align: center }
+    .top { width: 100% }
+    #cancel-comment-reply-link {
+        margin-bottom: 0;
+        margin-top: -43px;
+    }
+    .description-1, .description-2 { display: none }
+    .commentmetadata { float: left }
+    .Justfit-train-section { width: 100% }
+    .Justfit-train-section:nth-child(odd) { border-right: none }
+    .Justfit-train-section:nth-last-of-type(2) { border-bottom: 1px solid #e0e0e0 }
+    .f-widget { width: 100%!important }
+    .single_post header .post-info .thecategory { float: left }
+}
+@media screen and (max-width:400px) { 
+    article header { overflow: hidden }
+    .slidertext { display: none }
+    .header-join .join-description .title { font-size: 30px }
+    .logo-wrap { width: 100% }
+    .primary-navigation {
+        float: left;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .header-search { display: none }
+    .single_page .tab_widget ul.wps_tabs li a { font-size: 10px }
+    #header .readMore { margin-right: 10px }
+}
